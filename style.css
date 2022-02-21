@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spacing {
+  margin-top: 1rem;
+}
+
+.container {
+  width: 60vw;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.08em solid red;
+}
+
+.head {
+  width: 12vw;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 0.08em solid red;
+}
+
+.head .antenna {
+  width: 0.5vw;
+  min-height: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 0.08em solid red;
+}
+
+.antenna .antennaSphere {
+  width: 1vw;
+  height: 0.5em;
+  background: red;
+  border-radius: 50%;
+  border: none;
+}
+
+.antenna .antennaRod {
+  width: 0.18em;
+  height: 2em;
+  background: black;
+  border: none;
+}
+
+.head .face {
+  width: 3vw;
+  padding: 0.2em;
+  border: 0.08em solid #2bff00;
+}
+
+.face .eyes {
+  position: relative;
+  width: 0.4em;
+  height: 0.4em;
+  margin: 0.2em;
+  background: gray;
+  border: 0.08em solid #0004ff;
+  -webkit-box-shadow: inset 0.6em 0.6em #0044ff;
+          box-shadow: inset 0.6em 0.6em #0044ff;
+}
+/*# sourceMappingURL=style.css.map */
